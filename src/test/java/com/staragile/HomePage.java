@@ -20,7 +20,9 @@ public class HomePage {
 	}
 
 	public String getStatusOfLink() {
+		Utility.getScreenShot(driver);
 		driver.findElement(link).click();
+		Utility.getScreenShot(driver);
 		
 		return driver.getCurrentUrl();
 	}

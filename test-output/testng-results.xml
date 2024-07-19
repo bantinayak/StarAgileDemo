@@ -1,54 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[TestPass]]>
+    </line>
+    <line>
+      <![CDATA[TestPass, URL Matched]]>
+    </line>
+    <line>
+      <![CDATA[url matched successfully]]>
+    </line>
+    <line>
+      <![CDATA[link match ans pass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-07-19T08:09:14 IST" name="Suite" finished-at="2024-07-19T08:10:20 IST" duration-ms="65867">
+  <suite started-at="2024-07-20T00:29:46 IST" name="Suite" finished-at="2024-07-20T00:30:09 IST" duration-ms="23023">
     <groups>
     </groups>
-    <test started-at="2024-07-19T08:09:14 IST" name="chromeTest" finished-at="2024-07-19T08:09:39 IST" duration-ms="25492">
-      <class name="seleniumGrid.ParallelTest">
-        <test-method signature="crossBrowserTesting(java.lang.String)[pri:0, instance:seleniumGrid.ParallelTest@73a1e9a9]" started-at="2024-07-19T08:09:14 IST" name="crossBrowserTesting" finished-at="2024-07-19T08:09:39 IST" duration-ms="25411" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-07-20T00:29:46 IST" name="Test" finished-at="2024-07-20T00:29:57 IST" duration-ms="11511">
+      <class name="com.staragile.LoginPageTestCase">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.staragile.LoginPageTestCase@34a3d150]" started-at="2024-07-20T00:29:46 IST" name="Setup" finished-at="2024-07-20T00:29:54 IST" duration-ms="7609" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crossBrowserTesting -->
-      </class> <!-- seleniumGrid.ParallelTest -->
-    </test> <!-- chromeTest -->
-    <test started-at="2024-07-19T08:09:14 IST" name="edgeTest" finished-at="2024-07-19T08:09:49 IST" duration-ms="35659">
-      <class name="seleniumGrid.ParallelTest">
-        <test-method signature="crossBrowserTesting(java.lang.String)[pri:0, instance:seleniumGrid.ParallelTest@4802796d]" started-at="2024-07-19T08:09:14 IST" name="crossBrowserTesting" finished-at="2024-07-19T08:09:49 IST" duration-ms="35582" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="pagesetup()[pri:0, instance:com.staragile.LoginPageTestCase@34a3d150]" started-at="2024-07-20T00:29:54 IST" name="pagesetup" finished-at="2024-07-20T00:29:55 IST" duration-ms="1689" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crossBrowserTesting -->
-      </class> <!-- seleniumGrid.ParallelTest -->
-    </test> <!-- edgeTest -->
-    <test started-at="2024-07-19T08:09:14 IST" name="firefoxTest" finished-at="2024-07-19T08:10:20 IST" duration-ms="65867">
-      <class name="seleniumGrid.ParallelTest">
-        <test-method signature="crossBrowserTesting(java.lang.String)[pri:0, instance:seleniumGrid.ParallelTest@3a93b025]" started-at="2024-07-19T08:09:14 IST" name="crossBrowserTesting" finished-at="2024-07-19T08:10:20 IST" duration-ms="65796" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- pagesetup -->
+        <test-method signature="ValidateLogin()[pri:0, instance:com.staragile.LoginPageTestCase@34a3d150]" started-at="2024-07-20T00:29:55 IST" name="ValidateLogin" finished-at="2024-07-20T00:29:57 IST" duration-ms="2154" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestPass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLogin -->
+      </class> <!-- com.staragile.LoginPageTestCase -->
+    </test> <!-- Test -->
+    <test started-at="2024-07-20T00:29:57 IST" name="Test1" finished-at="2024-07-20T00:30:09 IST" duration-ms="11464">
+      <class name="com.staragile.HomePageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.staragile.HomePageTest@702657cc]" started-at="2024-07-20T00:29:57 IST" name="Setup" finished-at="2024-07-20T00:30:07 IST" duration-ms="9307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crossBrowserTesting -->
-      </class> <!-- seleniumGrid.ParallelTest -->
-    </test> <!-- firefoxTest -->
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyURL()[pri:1, instance:com.staragile.HomePageTest@702657cc]" started-at="2024-07-20T00:30:07 IST" name="VerifyURL" finished-at="2024-07-20T00:30:07 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestPass, URL Matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyURL -->
+        <test-method signature="VerifyTitle()[pri:2, instance:com.staragile.HomePageTest@702657cc]" started-at="2024-07-20T00:30:07 IST" name="VerifyTitle" finished-at="2024-07-20T00:30:07 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[url matched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method signature="ValidateSignInLink()[pri:3, instance:com.staragile.HomePageTest@702657cc]" started-at="2024-07-20T00:30:07 IST" name="ValidateSignInLink" finished-at="2024-07-20T00:30:09 IST" duration-ms="2129" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[link match ans pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateSignInLink -->
+      </class> <!-- com.staragile.HomePageTest -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
