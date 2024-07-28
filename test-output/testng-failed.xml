@@ -11,6 +11,16 @@
       </class> <!-- seleniumGrid.ParallelTest -->
     </classes>
   </test> <!-- edgeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="firefoxTest(failed)">
+    <parameter name="bname" value="Firefox"/>
+    <classes>
+      <class name="seleniumGrid.ParallelTest">
+        <methods>
+          <include name="crossBrowserTesting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- seleniumGrid.ParallelTest -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
   <test thread-count="5" parallel="tests" name="chromeTest(failed)">
     <parameter name="bname" value="Chrome"/>
     <classes>
