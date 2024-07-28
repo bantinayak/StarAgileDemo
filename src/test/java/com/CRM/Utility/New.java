@@ -7,6 +7,7 @@ public class New {
 		System.out.println("hi");
 		System.out.println("hi");
 		System.out.println("hi");
+		System.out.println("hi");
 	}
 
 }
