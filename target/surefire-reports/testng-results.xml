@@ -14,20 +14,20 @@
       <![CDATA[link match ans pass]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-07-28T13:33:11 IST" name="Suite" finished-at="2024-07-28T13:34:10 IST" duration-ms="58673">
+  <suite started-at="2024-07-28T21:39:54 IST" name="Suite" finished-at="2024-07-28T21:40:54 IST" duration-ms="59448">
     <groups>
     </groups>
-    <test started-at="2024-07-28T13:33:11 IST" name="Test" finished-at="2024-07-28T13:33:53 IST" duration-ms="42062">
+    <test started-at="2024-07-28T21:39:54 IST" name="Test" finished-at="2024-07-28T21:40:40 IST" duration-ms="45959">
       <class name="com.staragile.LoginPageTestCase">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.staragile.LoginPageTestCase@3d74bf60]" started-at="2024-07-28T13:33:11 IST" name="Setup" finished-at="2024-07-28T13:33:48 IST" duration-ms="37139" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.staragile.LoginPageTestCase@3d74bf60]" started-at="2024-07-28T21:39:54 IST" name="Setup" finished-at="2024-07-28T21:40:26 IST" duration-ms="31781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method is-config="true" signature="pagesetup()[pri:0, instance:com.staragile.LoginPageTestCase@3d74bf60]" started-at="2024-07-28T13:33:48 IST" name="pagesetup" finished-at="2024-07-28T13:33:51 IST" duration-ms="2503" status="PASS">
+        <test-method is-config="true" signature="pagesetup()[pri:0, instance:com.staragile.LoginPageTestCase@3d74bf60]" started-at="2024-07-28T21:40:26 IST" name="pagesetup" finished-at="2024-07-28T21:40:38 IST" duration-ms="11610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pagesetup -->
-        <test-method signature="ValidateLogin()[pri:0, instance:com.staragile.LoginPageTestCase@3d74bf60]" started-at="2024-07-28T13:33:51 IST" name="ValidateLogin" finished-at="2024-07-28T13:33:53 IST" duration-ms="2331" status="PASS">
+        <test-method signature="ValidateLogin()[pri:0, instance:com.staragile.LoginPageTestCase@3d74bf60]" started-at="2024-07-28T21:40:38 IST" name="ValidateLogin" finished-at="2024-07-28T21:40:40 IST" duration-ms="2517" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[TestPass]]>
@@ -36,27 +36,27 @@
         </test-method> <!-- ValidateLogin -->
       </class> <!-- com.staragile.LoginPageTestCase -->
     </test> <!-- Test -->
-    <test started-at="2024-07-28T13:33:53 IST" name="Test1" finished-at="2024-07-28T13:34:10 IST" duration-ms="16286">
+    <test started-at="2024-07-28T21:40:40 IST" name="Test1" finished-at="2024-07-28T21:40:54 IST" duration-ms="13323">
       <class name="com.staragile.HomePageTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.staragile.HomePageTest@4d9e68d0]" started-at="2024-07-28T13:33:53 IST" name="Setup" finished-at="2024-07-28T13:34:07 IST" duration-ms="13479" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.staragile.HomePageTest@4d9e68d0]" started-at="2024-07-28T21:40:40 IST" name="Setup" finished-at="2024-07-28T21:40:51 IST" duration-ms="11077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerifyURL()[pri:1, instance:com.staragile.HomePageTest@4d9e68d0]" started-at="2024-07-28T13:34:07 IST" name="VerifyURL" finished-at="2024-07-28T13:34:08 IST" duration-ms="936" status="PASS">
+        <test-method signature="VerifyURL()[pri:1, instance:com.staragile.HomePageTest@4d9e68d0]" started-at="2024-07-28T21:40:51 IST" name="VerifyURL" finished-at="2024-07-28T21:40:51 IST" duration-ms="10" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[TestPass, URL Matched]]>
             </line>
           </reporter-output>
         </test-method> <!-- VerifyURL -->
-        <test-method signature="VerifyTitle()[pri:2, instance:com.staragile.HomePageTest@4d9e68d0]" started-at="2024-07-28T13:34:08 IST" name="VerifyTitle" finished-at="2024-07-28T13:34:08 IST" duration-ms="45" status="PASS">
+        <test-method signature="VerifyTitle()[pri:2, instance:com.staragile.HomePageTest@4d9e68d0]" started-at="2024-07-28T21:40:51 IST" name="VerifyTitle" finished-at="2024-07-28T21:40:51 IST" duration-ms="35" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[url matched successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- VerifyTitle -->
-        <test-method signature="ValidateSignInLink()[pri:3, instance:com.staragile.HomePageTest@4d9e68d0]" started-at="2024-07-28T13:34:08 IST" name="ValidateSignInLink" finished-at="2024-07-28T13:34:10 IST" duration-ms="1801" status="PASS">
+        <test-method signature="ValidateSignInLink()[pri:3, instance:com.staragile.HomePageTest@4d9e68d0]" started-at="2024-07-28T21:40:51 IST" name="ValidateSignInLink" finished-at="2024-07-28T21:40:54 IST" duration-ms="2196" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[link match ans pass]]>
